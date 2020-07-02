@@ -17,11 +17,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/JayaKrishnaNamburu/teleport-component-parser"
+    "url": "git+ssh://git@github.com/teleporthq/teleport-component-parser"
   },
   "author": "teleportHQ",
   "license": "MIT",
-  "homepage": "https://JayaKrishnaNamburu/teleport-component-parser#README",
+  "homepage": "https://github.com/teleporthq/teleport-component-parser/#README",
   "devDependencies": {
     "@babel/types": "^7.10.4",
     "@types/jest": "^24.9.0",
