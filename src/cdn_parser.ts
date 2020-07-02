@@ -24,7 +24,6 @@ const traverseForElemensts = (ast: types.File, result: AnalyzedResult) => {
           };
         }
       }
-      return path;
     }
   });
 };
