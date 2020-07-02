@@ -1,7 +1,7 @@
 {
-  "name": "@teleporthq/teleport-starter",
+  "name": "@teleporthq/teleport-component-parser",
   "version": "0.0.1",
-  "description": "Starter boilerplate",
+  "description": "A parser for analyzing components",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
@@ -17,29 +17,34 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/teleporthq/teleport-starter.git"
+    "url": "git+ssh://git@github.com/JayaKrishnaNamburu/teleport-component-parser"
   },
   "author": "teleportHQ",
   "license": "MIT",
-  "homepage": "https://github.com/teleporthq/teleport-starter#README",
+  "homepage": "https://JayaKrishnaNamburu/teleport-component-parser#README",
   "devDependencies": {
+    "@babel/types": "^7.10.4",
     "@types/jest": "^24.9.0",
     "@types/node": "^13.1.8",
     "@typescript-eslint/eslint-plugin": "^2.31.0",
     "@typescript-eslint/parser": "^2.31.0",
     "codecov": "^3.6.5",
-    "husky": "^4.2.0",
-    "jest": "^25.1.0",
-    "pretty-quick": "^2.0.1",
-    "ts-jest": "^25.0.0",
     "eslint": "^7.0.0",
     "eslint-config-prettier": "^6.11.0",
-    "typescript": "^3.7.5",
-    "prettier": "^1.19.1"
+    "husky": "^4.2.0",
+    "jest": "^25.1.0",
+    "prettier": "^1.19.1",
+    "pretty-quick": "^2.0.1",
+    "ts-jest": "^25.0.0",
+    "typescript": "^3.7.5"
   },
   "husky": {
     "hooks": {
       "pre-commit": "pretty-quick --staged && npm run lint"
     }
+  },
+  "dependencies": {
+    "@babel/parser": "^7.10.4",
+    "@babel/traverse": "^7.10.4"
   }
 }

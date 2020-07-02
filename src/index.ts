@@ -1,7 +1,3 @@
-export default class Init {
-  public name: string;
+import { cdnParser } from "./cdn_parser";
 
-  constructor(name: string) {
-    this.name = name;
-  }
-}
+export { cdnParser };
